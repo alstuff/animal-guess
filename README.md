@@ -18,7 +18,7 @@ The descriptions for the animals can be found in AnimalGuess.UIConsole.AnimalGam
 User will be able to add a new animal and save it to the file. The animal list will be refreshed automatically.
 The options to add a new attribute of an animal are as follows.
 
-		[A] Action (verb) e.g. 'fly', 'bark', 'eat cheese'
+        [A] Action (verb) e.g. 'fly', 'bark', 'eat cheese'
         [B] Has e.g. 'four legs', 'wings'
         [C] Is (adjective) e.g. 'big', 'yellow colour', 'an insect'
         [X] Cancel
