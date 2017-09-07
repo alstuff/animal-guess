@@ -78,10 +78,9 @@ namespace AnimalGuess.Module
             var data = GetAnimals();
             if (data == null) return null;
 
-            var tree = new AnimalTree();
-            tree.BuildTree(data);
+            _animalTree.BuildTree(data);
 
-            return tree.RootNode;
+            return _animalTree.RootNode;
         }
 
         private bool IsValid(Animal animal)
