@@ -87,7 +87,7 @@ namespace AnimalGuess.UIConsole
             animal1.AddAttribute(new AnimalAttribute(AttributeType.Has, "a trunk"));
             animal1.AddAttribute(new AnimalAttribute(AttributeType.Has, "trumpets"));
             animal1.AddAttribute(new AnimalAttribute(AttributeType.Is, "grey"));
-            animal1.AddAttribute(new AnimalAttribute(AttributeType.Is, "big"));
+            animal1.AddAttribute(new AnimalAttribute(AttributeType.Is, "huge"));
             animals.Add(animal1);
 
             var animal2 = new Animal("lion");
@@ -101,8 +101,8 @@ namespace AnimalGuess.UIConsole
             var animal3 = new Animal("dog");
             animal3.AddAttribute(new AnimalAttribute(AttributeType.Action, "bark"));
             animal3.AddAttribute(new AnimalAttribute(AttributeType.Has, "four legs"));
-            animal3.AddAttribute(new AnimalAttribute(AttributeType.Is, "men's best friend"));
-            animal3.AddAttribute(new AnimalAttribute(AttributeType.Is, "small"));
+            animal3.AddAttribute(new AnimalAttribute(AttributeType.Has, "hair"));
+            animal3.AddAttribute(new AnimalAttribute(AttributeType.Is, "mammal"));
             animals.Add(animal3);
 
             var animal4 = new Animal("bird");
@@ -115,6 +115,7 @@ namespace AnimalGuess.UIConsole
             var animal5 = new Animal("butterfly");
             animal5.AddAttribute(new AnimalAttribute(AttributeType.Action, "fly"));
             animal5.AddAttribute(new AnimalAttribute(AttributeType.Has, "wings"));
+            animal5.AddAttribute(new AnimalAttribute(AttributeType.Has, "six legs"));
             animal5.AddAttribute(new AnimalAttribute(AttributeType.Is, "an insect"));
             animals.Add(animal5);
 
