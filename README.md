@@ -1,5 +1,4 @@
 # animal-guess code challenge project
-Author: Alvin Husin
 
 This is a console application written in C# to simulate animal guessing game.
 Upon startup, user will be presented with a main menu with several options:
@@ -25,10 +24,3 @@ The options to add a new attribute of an animal are as follows.
         [X] Cancel
 
 To play the game user needs to select option [4] where the system will ask a series of questions to guess the animal based on the information.
-
-Due to time limitation, unit tests are currently unavailable. However the classes are designed with testability in mind.
-
-Enjoy the game.
-
-Regards,
-Alvin Husin
